@@ -1,14 +1,14 @@
 aid: blackbird-labs
 name: Blackbird Labs
 description: Blackbird Labs is a New York-based hospitality technology company building a payments and
-  loyalty platform for restaurants and their guests. Its flagship product, Blackbird Pay, is a
-  blockchain-powered payment network that charges restaurants roughly 2% per transaction and settles
-  automatically at the table, while diners earn $FLY loyalty rewards by checking in and can redeem
-  points across participating restaurants. Payments run over Flynet, a layer-three transaction
-  protocol built on Coinbase's Base, and membership is represented by an NFC-tapped NFT. Founded by
-  Resy and Eater co-founder Ben Leventhal, Blackbird is backed by Union Square Ventures, Spark
-  Capital, Andreessen Horowitz, Coinbase Ventures, and Amex Ventures. Blackbird operates as a
-  consumer mobile app and a merchant platform and does not currently publish a public developer API.
+  loyalty platform for restaurants and their guests. Its flagship product, Blackbird Pay, is a blockchain-powered
+  payment network that charges restaurants roughly 2% per transaction and settles automatically at the
+  table, while diners earn $FLY loyalty rewards by checking in and can redeem points across participating
+  restaurants. Payments run over Flynet, a layer-three transaction protocol built on Coinbase's Base,
+  and membership is represented by an NFC-tapped NFT. Founded by Resy and Eater co-founder Ben Leventhal,
+  Blackbird is backed by Union Square Ventures, Spark Capital, Andreessen Horowitz, Coinbase Ventures,
+  and Amex Ventures. Blackbird operates as a consumer mobile app and a merchant platform and does not
+  currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/blackbird-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +29,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-08'
 image: https://www.blackbird.xyz/opengraph-image.png
 tags:
 - Company
@@ -60,8 +60,16 @@ common:
   url: https://www.blackbird.xyz/privacy
 - type: Website
   url: https://blackbird.xyz
+- type: About
+  url: https://www.blackbird.xyz/about
+- type: HelpCenter
+  url: https://www.blackbird.xyz/partnerhelp
+- type: LLMsTxt
+  url: llms/blackbird-labs-llms.txt
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- blackbird-labs-inc
